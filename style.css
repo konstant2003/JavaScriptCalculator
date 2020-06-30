@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background-color: #363532;
+}
+.mainDiv{
+    position:absolute;
+    top: 20%;
+    left: 40%;
+
+    
+}
+.input{
+    width: 60px;
+    height: 60px;
+    font-size: 18px;
+    background-color: #5e5d5c ;
+    color:white;
+}
+.result{
+    width: 250px;
+    height: 40px;
+    margin: 0px 0px 10px 0px;
+}
+.zeroButton{
+    width: 100%;
+}
+
+.equals{
+    height: 124px;
+    background-color: orange;
+    font-size: 24px;
+}
+
+.darkGrayButton{
+    background-color: #4a4948 ;
+}
+
+.redButton{
+    background-color: red;
+}
+
+

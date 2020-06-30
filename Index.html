@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="mainDiv">
+    <form name="form">
+        <input id="input" class="result" name="result"> 
+    </form>
+    <table>
+        <tr>
+            <td>
+                <input type="button" class="input darkGrayButton" onclick="insert(this.value)" value="%">
+            </td>
+            <td>
+                <input type="button"  class="input darkGrayButton" onclick="insert(this.value)" value="/">
+            </td>
+            <td>
+                <input type="button" class="input darkGrayButton" onclick="insert('*')" value="*">
+            </td>
+            <td>
+                <input type="button" class="input redButton" onclick="clean()" value="C">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="input" onclick="insert('7')" value="7">
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('8')" value="8">              
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('9')" value="9">
+            </td>
+            <td>
+                <input type="button" class="input darkGrayButton" onclick="insert('+')" value="+">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="input" onclick="insert('4')" value="4">
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('5')" value="5">
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('6')" value="6">
+            </td>
+            <td>
+                <input type="button" class="input darkGrayButton" onclick="insert('-')" value="-">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="input" onclick="insert('1')" value="1">
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('2')" value="2">
+            </td>
+            <td>
+                <input type="button" class="input" onclick="insert('3')" value="3">
+            </td>
+            <td rowspan=5>
+                <input type="button" class="input equals orangeButton" onclick="equals('=')" value="=">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="button" class="input zeroButton" onclick="insert('0')" value="0">
+            </td>
+            <td>
+                <input type="button" class="input darkGrayButton" onclick="insert('.')" value=".">
+            </td>
+            <td>
+                <input type="button" class="input redButton" onclick="back()" value="Back">
+            </td>
+            
+            
+        </tr>
+    </table>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
