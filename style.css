@@ -10,13 +10,25 @@ body{
 
     
 }
+
+
 .input{
     width: 60px;
     height: 60px;
     font-size: 16px;
     background-color: #5e5d5c ;
     color:white;
+    cursor: pointer;
 }
+
+.input:hover {
+    background-color: #3f3f3d;
+}
+
+.input:focus {
+    filter: brightness(50%);
+} 
+
 .result{
     width: 250px;
     height: 40px;
@@ -32,12 +44,22 @@ body{
     font-size: 24px;
 }
 
+.equals:hover {
+    background-color: rgba(255, 166, 0, 0.842);
+}
+
 .darkGrayButton{
     background-color: #4a4948 ;
+}
+
+.darkGrayButton:hover {
+    background-color: #2c2b2b;
 }
 
 .redButton{
     background-color: red;
 }
 
-
+.redButton:hover {
+    background-color: rgba(255, 0, 0, 0.76);
+}
